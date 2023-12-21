@@ -116,7 +116,7 @@
         </record>
 
 
-        <record model="ir.actions.act_window" id="task_manager.action_window">
+-        <record model="ir.actions.act_window" id="task_manager.action_window">
             <field name="name">Task Manager</field>
             <field name="context">{"search_default_filter_stage_id_name": "Completed"}</field>
             <field name="res_model">task_manager.task_manager</field>
@@ -147,8 +147,8 @@
         <menuitem name="Stages" id="task_manager.stages" parent="task_manager.menu_root"
                   action="task_manager.action_window_stage"/>
 
-<!--        <menuitem name="Reporting" id="task_manager.report" parent="task_manager.menu_root"-->
-<!--                  action="task_manager.action_window_report"/>-->
+        <menuitem name="Reporting" id="task_manager.report" parent="task_manager.menu_root"
+                  action="task_manager.action_window_report"/>
 
     </data>
 </odoo>
